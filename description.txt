@@ -1,0 +1,5 @@
+Minecraft Paintings is a small-scale aesthetic content mod that adds all 26 paintings featured in Minecraft, manually recreated to include less noise and tile dimensions fitting Terraria paintings. While you won't be able to hide your secret passageways with these, they are still excellent at spicing up your town and base!
+
+Each painting can be crafted at a Work Bench using 8 Wood and 1 of any Paint type.
+
+For a visual gallery of all the paintings and how they look compared to their Minecraft counterparts, check out the mod's GitHub repo or TCF page!

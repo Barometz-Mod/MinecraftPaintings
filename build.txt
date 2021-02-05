@@ -1,0 +1,6 @@
+displayName = Minecraft Paintings
+author = Barometz
+version = 0.9.0
+
+buildIgnore = doc/*
+includePDB = false
