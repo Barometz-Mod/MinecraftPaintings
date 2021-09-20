@@ -28,7 +28,7 @@ namespace MinecraftPaintings.Tiles {
         }
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY) {
-            int style = frameX / 54; // 486px / 9
+            int style = frameX / 108; // 324x / 3
             var paintingList = new[] { "DonkeyKong", "Fighters", "Skeleton" }; // Array MUST be in same order as corresponding item.placeStyle!
             string item = paintingList[style];
             Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType(item));
