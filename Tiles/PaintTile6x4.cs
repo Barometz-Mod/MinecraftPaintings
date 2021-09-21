@@ -3,10 +3,11 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
+using MinecraftPaintings.Items.SixxFour;
 
 namespace MinecraftPaintings.Tiles {
     public class PaintTile6x4 : ModTile {
-        public override void SetDefaults() {
+        public override void SetStaticDefaults() {
             Main.tileFrameImportant[Type] = true;
             Main.tileLavaDeath[Type] = true;
             TileID.Sets.FramesOnKillWall[Type] = true;
@@ -17,7 +18,6 @@ namespace MinecraftPaintings.Tiles {
             TileObjectData.newTile.CoordinateHeights = new int[] { 16, 16, 16, 16 };
             TileObjectData.newTile.StyleHorizontal = true;
             TileObjectData.addTile(Type);
-            disableSmartCursor = true;
             ModTranslation name = CreateMapEntryName();
             name.SetDefault("Painting");
             AddMapEntry(new Color(90, 50, 30), name);
@@ -29,9 +29,12 @@ namespace MinecraftPaintings.Tiles {
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY) {
             int style = frameX / 108; // 324x / 3
-            var paintingList = new[] { "DonkeyKong", "Fighters", "Skeleton" }; // Array MUST be in same order as corresponding item.placeStyle!
-            string item = paintingList[style];
-            Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType(item));
+            var paintingList = new[] {
+                ModContent.ItemType<DonkeyKong>(),
+                ModContent.ItemType<Fighters>(),
+                ModContent.ItemType<Skeleton>()
+            }; // Array MUST be in same order as corresponding item.placeStyle!
+            Item.NewItem(i * 16, j * 16, 16, 48, paintingList[style]);
         }
     }
 }

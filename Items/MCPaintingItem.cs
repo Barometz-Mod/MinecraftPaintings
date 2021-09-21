@@ -18,7 +18,14 @@ namespace MinecraftPaintings.Items {
         /// </summary>
         public int PaintingPlaceStyle { get; protected set; }
 
-        public string DefaultTooltip => "'K. Zetterstrand'";
+        /// <summary>
+        /// Defines if the painting recipe requires Ecto Mist to craft.
+        /// Should only be used for the unused Bedrock Edition paintings.
+        /// Defaults to false.
+        /// </summary>
+        public virtual bool GraveyardCraft => false;
+
+        public virtual string DefaultTooltip => "'K. Zetterstrand'";
 
         /////////////////////////
 
@@ -36,56 +43,56 @@ namespace MinecraftPaintings.Items {
             switch (PaintingType)
             {
                 case MCPaintingType.TwoByTwo:
-                    item.width = 20; item.height = 20;
-                    item.createTile = ModContent.TileType<PaintTile2x2>();
+                    Item.width = 20; Item.height = 20;
+                    Item.createTile = ModContent.TileType<PaintTile2x2>();
                     break;
 
                 case MCPaintingType.TwoByThree:
-                    item.width = 20; item.height = 30;
-                    item.createTile = ModContent.TileType<PaintTile2x3>();
+                    Item.width = 20; Item.height = 30;
+                    Item.createTile = ModContent.TileType<PaintTile2x3>();
                     break;
 
                 case MCPaintingType.ThreeByTwo:
-                    item.width = 30; item.height = 20;
-                    item.createTile = ModContent.TileType<PaintTile3x2>();
+                    Item.width = 30; Item.height = 20;
+                    Item.createTile = ModContent.TileType<PaintTile3x2>();
                     break;
 
                 case MCPaintingType.ThreeByThree:
-                    item.width = 30; item.height = 30;
-                    item.createTile = ModContent.TileType<PaintTile3x3>();
+                    Item.width = 30; Item.height = 30;
+                    Item.createTile = ModContent.TileType<PaintTile3x3>();
                     break;
 
                 case MCPaintingType.SixByFour:
-                    item.width = 50; item.height = 34;
-                    item.createTile = ModContent.TileType<PaintTile6x4>();
+                    Item.width = 50; Item.height = 34;
+                    Item.createTile = ModContent.TileType<PaintTile6x4>();
                     break;
             }
 
-            item.maxStack = 99;
-            item.useTurn = true;
-            item.autoReuse = true;
-            item.useAnimation = 15;
-            item.useTime = 10;
-            item.useStyle = 1;
-            item.consumable = true;
-            item.value = Item.sellPrice(0, 0, 10, 0);
-            item.rare = 0;
+            Item.maxStack = 99;
+            Item.useTurn = true;
+            Item.autoReuse = true;
+            Item.useAnimation = 15;
+            Item.useTime = 10;
+            Item.useStyle = 1;
+            Item.consumable = true;
+            Item.value = Item.sellPrice(0, 0, 10, 0);
+            Item.rare = 0;
 
-            item.placeStyle = PaintingPlaceStyle;
+            Item.placeStyle = PaintingPlaceStyle;
         }
 
-        public virtual void SafeSetDefaults()
-        {
+        public virtual void SafeSetDefaults() {
 
         }
 
         public override void AddRecipes() {
-            ModRecipe recipe = new ModRecipe(mod);
+            var recipe = CreateRecipe(1);
             recipe.AddRecipeGroup("Wood", 8);
             recipe.AddRecipeGroup("MinecraftPaintings:AnyPaint", 1);
             recipe.AddTile(TileID.WorkBenches);
-            recipe.SetResult(this);
-            recipe.AddRecipe();
+            if (GraveyardCraft) recipe.AddCondition(Recipe.Condition.InGraveyardBiome);
+
+            recipe.Register();
         }
     }
 }

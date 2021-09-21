@@ -18,17 +18,6 @@ namespace MinecraftPaintings {
         }
 
         public override void AddRecipeGroups() {
-            // int[] paintList = new int[30]; // TODO: increase to [31] when 1.4 comes out
-            // int indexCounter = 0;
-            // for(int i = 1073; i <= 1099; i++) { // Red Paint to Deep Pink Paint
-            //     paintList[indexCounter] = i;
-            //     indexCounter++;
-            // }
-            // for(int i = 1966; i <= 1968; i++) { // Brown Paint to Negative Paint
-            //     paintList[indexCounter] = i;
-            //     indexCounter++;
-            // }
-
             RecipeGroup group = new RecipeGroup(() => Language.GetTextValue("LegacyMisc.37") + " Paint", new int[] {
                 ItemID.RedPaint,
                 ItemID.OrangePaint,
@@ -59,7 +48,8 @@ namespace MinecraftPaintings {
                 ItemID.WhitePaint,
                 ItemID.ShadowPaint,
                 ItemID.NegativePaint,
-                ItemID.BrownPaint
+                ItemID.BrownPaint,
+                ItemID.GlowPaint
             });
             RecipeGroup.RegisterGroup("MinecraftPaintings:AnyPaint", group);
         }

@@ -3,8 +3,6 @@ using Terraria.ID;
 
 namespace MinecraftPaintings.Items.TwoxThree {
     public class Wanderer : MCPaintingItem {
-        //public override string Texture => "MinecraftPaintings/Items/_Placeholder2x3";
-
         public override MCPaintingType PaintingType => MCPaintingType.TwoByThree;
 
         public override void SafeSetStaticDefaults() {
@@ -12,8 +10,7 @@ namespace MinecraftPaintings.Items.TwoxThree {
             Tooltip.SetDefault(DefaultTooltip);
         }
 
-        public override void SafeSetDefaults()
-        {
+        public override void SafeSetDefaults() {
             PaintingPlaceStyle = 1;
         }
     }

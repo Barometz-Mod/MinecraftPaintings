@@ -9,6 +9,7 @@
 All the paintings are easily craftable at a [Work Bench](https://terraria.gamepedia.com/Work_Benches)! They simply require [Any Wood](https://terraria.gamepedia.com/Woods) (8) and [Any Paint](https://terraria.gamepedia.com/Paints) (1).
 
 ## Paintings
+### Normal
 <table>
     <tr>
         <th colspan="2" align="center">Item</th>
@@ -200,8 +201,61 @@ All the paintings are easily craftable at a [Work Bench](https://terraria.gamepe
     </tr>
 </table>
 
+### Graveyard
+The [4 unused paintings from Bedrock Edition](https://minecraft.gamepedia.com/wiki/Bedrock_Edition_unused_features#Paintings) can also be crafted with the same recipe, but additionally requires [Ecto Mist](https://terraria.fandom.com/wiki/Ecto_Mist) from a Graveyard.
+<table>
+    <tr>
+        <th colspan="2" align="center">Item</th>
+        <th align="center">Placed</th>
+        <th align="center">Size (W×H)</th>
+        <th align="center">In Minecraft</th>
+    </tr>
+    <tr>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Earth.png"></td>
+        <td>Earth</td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Earth.png"></td>
+        <td align="center">2×2</td>
+        <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/81/Earth_%28texture%29_BE2.png/revision/latest?cb=20201201163052&format=original" width="32px"></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Fire.png"></td>
+        <td>Fire</td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Fire.png"></td>
+        <td align="center">2×2</td>
+        <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/Fire_%28texture%29_BE2.png/revision/latest?cb=20201201163117&format=original" width="32px"></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Water.png"></td>
+        <td>Water</td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Water.png"></td>
+        <td align="center">2×2</td>
+        <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b4/Water_%28texture%29_BE2.png/revision/latest?cb=20201201163203&format=original" width="32px"></td>
+    </tr>
+    <tr>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Wind.png"></td>
+        <td>Wind</td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Wind.png"></td>
+        <td align="center">2×2</td>
+        <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7d/Wind_%28texture%29_BE2.png/revision/latest?cb=20201201163223&format=original" width="32px"></td>
+    </tr>
+</table>
+
 ## Installation
 - **Automatic:** Minecraft Paintings can be automatically downloaded on the tModLoader Mod Browser in-game; just search for "Minecraft Paintings" and click Download.
 - **Manual:** In the case that you are unable to automatically download, you can manually place the .tmod file from the [Releases page](https://github.com/Barometz-Mod/MinecraftPaintings/releases/latest) into your Mods directory:
     - Windows: `%userprofile%/Documents/My Games/Terraria/ModLoader/Mods/`
     - MacOS: `%userprofile%/Library/Application Support/Terraria/ModLoader/Mods/`
+
+## Changelog
+### v1.0.3
+* Initial release for tModLoader 1.4 Alpha.
+* Added the 4 unused paintings from the Bedrock Edition; these can be crafted at a Graveyard!
+* Added Illuminant Paint to Any Paint recipe group.
+
+### v1.0.2
+* Code refactoring.
+* Fixed Fighters and Skeleton placing the incorrect painting when placed.
+* Fixed Fighters and Skeleton not dropping the correct item when broken.
+
+### v1.0.1
+* Initial public release.
