@@ -211,30 +211,30 @@ The [4 unused paintings from Bedrock Edition](https://minecraft.gamepedia.com/wi
         <th align="center">In Minecraft</th>
     </tr>
     <tr>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Earth.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/Items/Graveyard/Earth.png"></td>
         <td>Earth</td>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Earth.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/doc/PlacedVisuals/Earth.png"></td>
         <td align="center">2×2</td>
         <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/81/Earth_%28texture%29_BE2.png/revision/latest?cb=20201201163052&format=original" width="32px"></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Fire.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/Items/Graveyard/Fire.png"></td>
         <td>Fire</td>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Fire.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/doc/PlacedVisuals/Fire.png"></td>
         <td align="center">2×2</td>
         <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/Fire_%28texture%29_BE2.png/revision/latest?cb=20201201163117&format=original" width="32px"></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Water.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/Items/Graveyard/Water.png"></td>
         <td>Water</td>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Water.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/doc/PlacedVisuals/Water.png"></td>
         <td align="center">2×2</td>
         <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b4/Water_%28texture%29_BE2.png/revision/latest?cb=20201201163203&format=original" width="32px"></td>
     </tr>
     <tr>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/Items/TwoxTwo/Wind.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/Items/Graveyard/Wind.png"></td>
         <td>Wind</td>
-        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/main/doc/PlacedVisuals/Wind.png"></td>
+        <td align="center"><img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4/doc/PlacedVisuals/Wind.png"></td>
         <td align="center">2×2</td>
         <td align="center"><img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7d/Wind_%28texture%29_BE2.png/revision/latest?cb=20201201163223&format=original" width="32px"></td>
     </tr>
@@ -246,16 +246,18 @@ The [4 unused paintings from Bedrock Edition](https://minecraft.gamepedia.com/wi
     - Windows: `%userprofile%/Documents/My Games/Terraria/ModLoader/Mods/`
     - MacOS: `%userprofile%/Library/Application Support/Terraria/ModLoader/Mods/`
 
+-----
+
 ## Changelog
 ### v1.0.3
-* Initial release for tModLoader 1.4 Alpha.
-* Added the 4 unused paintings from the Bedrock Edition; these can be crafted at a Graveyard!
-* Added Illuminant Paint to Any Paint recipe group.
+- Initial release for tModLoader 1.4 Alpha.
+- Added the 4 unused paintings from the Bedrock Edition; these can be crafted at a Graveyard!
+- Added Illuminant Paint to Any Paint recipe group.
 
 ### v1.0.2
-* Code refactoring.
-* Fixed Fighters and Skeleton placing the incorrect painting when placed.
-* Fixed Fighters and Skeleton not dropping the correct item when broken.
+- Code refactoring.
+- Fixed Fighters and Skeleton placing the incorrect painting when placed.
+- Fixed Fighters and Skeleton not dropping the correct item when broken.
 
 ### v1.0.1
-* Initial public release.
+- Initial public release.
