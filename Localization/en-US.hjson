@@ -1,0 +1,163 @@
+
+Mods: {
+	MinecraftPaintings: {
+		Common: {
+			Paint: Paint
+			DefaultPainter: "'K. Zetterstrand'"
+			WitherPainter: "'J. Bergensten'"
+			UnknownPainter: -
+		}
+
+		Items: {
+			Alban: {
+				DisplayName: Alban
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Aztec: {
+				DisplayName: Aztec
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Aztec2: {
+				DisplayName: Aztec2
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Bomb: {
+				DisplayName: Bomb
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			BurningSkull: {
+				DisplayName: Burning Skull
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Bust: {
+				DisplayName: Bust
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Courbet: {
+				DisplayName: Courbet
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Creebet: {
+				DisplayName: Creebet
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			DonkeyKong: {
+				DisplayName: Donkey Kong
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Fighters: {
+				DisplayName: Fighters
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Graham: {
+				DisplayName: Graham
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Kebab: {
+				DisplayName: Kebab
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Match: {
+				DisplayName: Match
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Pigscene: {
+				DisplayName: Pigscene
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Plant: {
+				DisplayName: Plant
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Pointer: {
+				DisplayName: Pointer
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Wasteland: {
+				DisplayName: Wasteland
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Earth: {
+				DisplayName: Earth
+				Tooltip: "{$Common.UnknownPainter}"
+			}
+
+			Fire: {
+				DisplayName: Fire
+				Tooltip: "{$Common.UnknownPainter}"
+			}
+
+			Water: {
+				DisplayName: Water
+				Tooltip: "{$Common.UnknownPainter}"
+			}
+
+			Wind: {
+				DisplayName: Wind
+				Tooltip: "{$Common.UnknownPainter}"
+			}
+
+			Pool: {
+				DisplayName: Pool
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Sea: {
+				DisplayName: Sea
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Skeleton: {
+				DisplayName: Skeleton
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			SkullAndRoses: {
+				DisplayName: Skull And Roses
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Stage: {
+				DisplayName: Stage
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Sunset: {
+				DisplayName: Sunset
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Void: {
+				DisplayName: Void
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Wanderer: {
+				DisplayName: Wanderer
+				Tooltip: "{$Common.DefaultPainter}"
+			}
+
+			Wither: {
+				DisplayName: Wither
+				Tooltip: "{$Common.WitherPainter}"
+			}
+		}
+	}
+}
