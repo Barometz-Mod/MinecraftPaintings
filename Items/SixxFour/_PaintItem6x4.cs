@@ -2,7 +2,6 @@
 {
     public class DonkeyKong : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath6x4 + "DonkeyKong";
         public override MCPaintingType PaintingType => MCPaintingType.SixByFour;
         public override void SafeSetDefaults()
         {
@@ -12,7 +11,6 @@
 
     public class Fighters : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath6x4 + "Fighters";
         public override MCPaintingType PaintingType => MCPaintingType.SixByFour;
         public override void SafeSetDefaults()
         {
@@ -22,7 +20,6 @@
 
     public class Skeleton : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath6x4 + "Skeleton";
         public override MCPaintingType PaintingType => MCPaintingType.SixByFour;
         public override void SafeSetDefaults()
         {

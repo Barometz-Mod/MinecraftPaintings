@@ -2,7 +2,6 @@
 {
     public class Alban : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Alban";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -12,7 +11,6 @@
 
     public class Aztec : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Aztec";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -22,7 +20,6 @@
 
     public class Aztec2 : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Aztec2";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -32,7 +29,6 @@
 
     public class Bomb : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Bomb";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -42,7 +38,6 @@
 
     public class Kebab : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Kebab";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -52,7 +47,6 @@
 
     public class Plant : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Plant";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -62,7 +56,6 @@
 
     public class Wasteland : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Wasteland";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override void SafeSetDefaults()
         {
@@ -72,7 +65,6 @@
 
     public class Earth : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Earth";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override bool GraveyardCraft => true;
         public override void SafeSetDefaults()
@@ -83,7 +75,6 @@
 
     public class Fire : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Fire";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override bool GraveyardCraft => true;
         public override void SafeSetDefaults()
@@ -94,7 +85,6 @@
 
     public class Water : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Water";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override bool GraveyardCraft => true;
         public override void SafeSetDefaults()
@@ -105,7 +95,6 @@
 
     public class Wind : MCPaintingItem
     {
-        public override string Texture => MCPaintingConsts.texturePath2x2 + "Wind";
         public override MCPaintingType PaintingType => MCPaintingType.TwoByTwo;
         public override bool GraveyardCraft => true;
         public override void SafeSetDefaults()
