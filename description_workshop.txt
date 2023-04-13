@@ -2,7 +2,7 @@
 
 [h1]Minecraft Paintings[/h1]
 
-[b]Minecraft Paintings[b] is a small-scale aesthetic content mod that adds [url=https://minecraft.fandom.com/Painting]all 30 paintings featured in Minecaft[/url], manually recreated to include less noise and tile dimensions fitting Terraria paintings. While you won't be able to hide your secret passageways with these, they are still excellent at spicing up your town and base!
+[b]Minecraft Paintings[/b] is a small-scale aesthetic content mod that adds [url=https://minecraft.fandom.com/Painting]all 30 paintings featured in Minecaft[/url], manually recreated to include less noise and tile dimensions fitting Terraria paintings. While you won't be able to hide your secret passageways with these, they are still excellent at spicing up your town and base!
 
 Each painting can be crafted at a Work Bench* using 8 of any Wood type and 1 of [url=https://terraria.wiki.gg/Paints]any Paint type[/url].
 

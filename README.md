@@ -1,7 +1,7 @@
 <p align="center">
     <img src="https://github.com/Barometz-Mod/MinecraftPaintings/blob/1.4.4/icon.png">
     <br/>
-    <a href="#">Steam Workshop</a>
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2961825413">Steam Workshop</a>
 </p>
 
 # Minecraft Paintings
