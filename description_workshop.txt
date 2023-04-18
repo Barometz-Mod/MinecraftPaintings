@@ -11,3 +11,5 @@ For a visual gallery of all the paintings and how they look compared to their Mi
 * [i]Earth, Fire, Water, and Wind additionally require [url=https://terraria.wiki.gg/Ecto_Mist]Ecto Mist[/url][/i] to craft.
 
 ℹ️ [b]This mod was built for the 1.4.4 version of tModLoader; be sure you are on the "1.4.4-preview" branch![/b]
+
+Thanks to [b]dylan#3865[/b] for the showcase images!
